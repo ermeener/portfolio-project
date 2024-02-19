@@ -8,6 +8,8 @@ font-family: "Poppins", serif; */
 }
 body{
   font-family: var(--default-font-family);
+    margin: 0;
+
 }
 h1,h2,h3,h4,h5,h6{
 color: black;
@@ -18,10 +20,7 @@ h1{
   font-size: 96px;
   line-height: 1.5;
 }
-p{
-  
 
-}
 .hero{
   background-color:var(--secondary-color);
   text-align: center;
@@ -42,7 +41,7 @@ p{
   line-height: 2;
   color: #272142;
 }
-.contact-button{
+.btn-branding{
   background-color:var(--branding-color);
   color: white;
   padding: 18px 30px;
@@ -61,7 +60,7 @@ p{
   color: #272142B2;
   line-height: 30px;
 }
-.learn-more-button{
+/* .learn-more-button{
   color:var(--branding-color);
   border: 1px solid var(--branding-color);
   padding: 18px 30px;
@@ -69,17 +68,21 @@ p{
   font-weight: normal;
 font-size: 18px;
   line-height: 27px;
-}
+} */
 .project-description{
   padding: 120px 60px;
 }
 @media (max-width: 900px){
   h1{
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 56px;
   }
   h2{
     font-size: 44px;
+  }
+  .about-section{
+    text-align: center;
+    padding: 0; 
   }
   .hero{
     padding: 80px 20px;
@@ -87,5 +90,57 @@ font-size: 18px;
   .project-description{
     padding: 0;
     text-align: center;
+  }
+ 
+
+}
+.about-section{
+  padding: 160px 20px;
+}
+.about-section h1{
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+}
+.about-section h2{
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  line-height: 27px;
+  color: #272142;
+}
+.about-section p{
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+.about-section-content{
+  margin: 30px;
+
+}
+/* .img-1{
+  width: 400px;
+  height: 400px;
+  border-radius: 4px;
+} */
+@media  (min-width: 550px) {
+  .about-section{
+    text-align: center;
+    padding: 0; 
+    font-size: 31px;
+  }
+  .about-section img{
+    max-width: 100%;
+  }
+}
+@media  (max-width: 1200px) {
+  .about-section{
+    text-align: center;
+    padding: 0; 
+
+  }
+  .about-section img{
+    max-width: 100%;
   }
 }
