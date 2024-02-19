@@ -80,7 +80,7 @@ font-size: 18px;
   h2{
     font-size: 44px;
   }
-  .about-section{
+  .content{
     text-align: center;
     padding: 0; 
   }
@@ -94,53 +94,50 @@ font-size: 18px;
  
 
 }
-.about-section{
+.content-container{
   padding: 160px 20px;
 }
-.about-section h1{
+.content-container h1{
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 80px;
   font-weight: 700;
 }
-.about-section h2{
+.content-container h2{
   font-family: var(--default-font-family);
   font-size: 18px;
   line-height: 27px;
   color: #272142;
 }
-.about-section p{
+.content-container p{
   font-family: var(--default-font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
 }
-.about-section-content{
+.content{
   margin: 30px;
 
 }
-/* .img-1{
-  width: 400px;
-  height: 400px;
-  border-radius: 4px;
-} */
-@media  (min-width: 550px) {
-  .about-section{
-    text-align: center;
-    padding: 0; 
-    font-size: 31px;
-  }
-  .about-section img{
-    max-width: 100%;
-  }
-}
-@media  (max-width: 1200px) {
-  .about-section{
-    text-align: center;
-    padding: 0; 
 
-  }
-  .about-section img{
-    max-width: 100%;
-  }
+
+@media  (max-width: 1400px) {
+  .content-container{
+    text-align: center;
+    padding: 0; 
+    margin: 0;
+    top: 0;
+    font-size: 12px;
+
+  }}
+.content h3{
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content p{
+  font-size: 14px;
+
 }
