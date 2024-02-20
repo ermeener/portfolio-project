@@ -91,7 +91,9 @@ font-size: 18px;
     padding: 0;
     text-align: center;
   }
- 
+ nav a{
+  font-size: 12px;
+ }
 
 }
 .content-container{
@@ -140,4 +142,28 @@ font-size: 18px;
 .content p{
   font-size: 14px;
 
+}
+.logo{
+  max-height: 40px;
+}
+nav{
+  padding: 20px 0;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+nav a{
+text-decoration: none;
+color: #272142;
+transition: all 100ms ease-in-out;
+}
+nav a:hover,nav li.active a{
+  color: var(--branding-color);
 }
